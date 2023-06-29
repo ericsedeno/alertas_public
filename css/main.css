@@ -1,0 +1,55 @@
+/* MIS ESTILOS */
+
+	a:link 				{text-decoration: none;}
+	a:visited 			{text-decoration: none;}
+	a:hover 			{text-decoration: none;}
+	a:active 			{text-decoration: none;}
+	body 				{background-color: #EEEEEE;	margin-top:5px}
+	div#footer			{position:absolute; bottom:5px; left:0; width:100%;}
+	.ajustar 			{white-space: nowrap; width: 1px;}
+	.vertical-align 	{display: flex; align-items: center;}
+	.quitar_espacios	{display: block; margin:0}
+	.toast 				{left: 50%; position: absolute; top: 0; transform: translate(-50%, 0px); z-index: 9999;}
+	#inner-message 		{margin: 0 auto;}
+	#error-container 	{margin-top:-12px; position: fixed; width: 100%; }
+	
+	/* BORDES DE LAS TABLAS, COMPLETANDO LOS COLORES DE BOOTSTRAP 4 QUE SOLO TRAE DEFAULT */
+	.table-bordered-primary > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {border: 1px solid #7ABAFF;}
+	.table-bordered-success > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {border: 1px solid #8FD19E;}
+	.table-bordered-danger > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {border: 1px solid #ED969E;}
+	.table-bordered-info > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {border: 1px solid #86CFDA;}
+	.table-bordered-warning > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {border: 1px solid #FFDF7E;}
+	.table-bordered-active > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {border: 1px solid #DEE2E6;}
+	.table-bordered-secondary > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {border: 1px solid #B3B7BB;}
+	.table-bordered-light > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {border: 1px solid #FBFCFC;}
+	.table-bordered-dark > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {border: 1px solid #454D55;}
+	
+	/* MIS COLORES DE FONDO REDUCIDOS AL 50% */
+	.bg-primary-50	 	{background-color: #7FBDFF !important;}			
+	.bg-success-50	 	{background-color: #93D3A2 !important;}				
+	.bg-info-50 		{background-color: #8BD0DB !important;}						
+	.bg-warning-50 		{background-color: #FFF5D9 !important;}					
+	.bg-danger-50 		{background-color: #ED9AA2 !important;}					
+	.bg-secondary-50 	{background-color: #B5BABE !important;}					
+	.bg-dark-50 		{background-color: #999C9F !important;}						
+
+	/* MIS COLORES DE FONDO REDUCIDOS AL 30% */
+	.bg-primary-30		{background-color: #B2D7FF !important;}			
+	.bg-success-30	 	{background-color: #BEE4C7 !important;}				
+	.bg-info-30 		{background-color: #DCF1F4 !important;}						
+	.bg-warning-30 		{background-color: #FFECB4 !important;}					
+	.bg-danger-30 		{background-color: #FAE1E3 !important;}					
+	.bg-secondary-30 	{background-color: #D3D5D8 !important;}										
+	.bg-dark-30 		{background-color: #E0E1E2 !important;}
+	
+	/* MIS COLORES DE FONDO REDUCIDOS AL 10% */
+	.bg-primary-10		{background-color: #E5F2FF !important;}			
+	.bg-success-10	 	{background-color: #E9F6EC !important;}				
+	.bg-info-10 		{background-color: #E7F6F8 !important;}						
+	.bg-warning-10 		{background-color: #FFF9E6 !important;}					
+	.bg-danger-10 		{background-color: #FBEAEC !important;}					
+	.bg-secondary-10 	{background-color: #F0F1F2 !important;}										
+	.bg-dark-10 		{background-color: #EAEBEC !important;}
+	
+	/* DIVIDIR TEXTO CON ... CUANDO SE PASE DEL ANCHO */
+	#responsive_text {white-space:nowrap; overflow:hidden; text-overflow: ellipsis;}
