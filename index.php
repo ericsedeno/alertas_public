@@ -1,3 +1,3 @@
 <?php
-	echo"<script>window.location.href='https://www.cmw.smcsalud.cu'; </script>";
+	echo"<script>window.location.href='https://www.tu.web.cu'; </script>";
 ?>

@@ -7,7 +7,7 @@ $URL = substr($URL_DIVIDIDA[0], 1);
 $IP = substr($URL_DIVIDIDA[1], 4);
 $USER = substr($URL_DIVIDIDA[2], 6);
 $CATEGORIA = substr($URL_DIVIDIDA[3], 12);
-$RAZON = substr($URL_DIVIDIDA[4], 8);;
+$RAZON = substr($URL_DIVIDIDA[4], 8);
 
 	switch ($CATEGORIA) 
 	{
@@ -16,8 +16,8 @@ $RAZON = substr($URL_DIVIDIDA[4], 8);;
 			$COLOR_FONDO= "#52959E";
 			$COLOR_LETRA= "#000000";
 			$MENSAJE1 = "PUBLICIDAD DESHABILITADA";
-			$MENSAJE2 = "El sitio al que intenta acceder est&aacute; catalogado como emisor de Publicidad, con el objetivo de optimizar el Ancho de Banda de la Sucursal este tipo de p&aacute;ginas han sido deshabilitadas.";
-			$MENSAJE3 = "Si le parece que esta catalogaci&oacute;n es err&oacute;nea por favor dir&iacute;jase al Nodo SMC Camag&uuml;ey para revisarlo.";
+			$MENSAJE2 = "El sitio al que intenta acceder est&aacute; catalogado como emisor de Publicidad, con el objetivo de optimizar el Ancho de Banda este tipo de p&aacute;ginas han sido deshabilitadas.";
+			$MENSAJE3 = "Si le parece que esta catalogaci&oacute;n es err&oacute;nea por favor dir&iacute;jase al Nodo de tu empresa para revisarlo.";
 			$MENSAJE4 = "";
 			break;
 		case "ANONIMATO":
@@ -26,7 +26,7 @@ $RAZON = substr($URL_DIVIDIDA[4], 8);;
 			$COLOR_LETRA= "#FFFFFF";
 			$MENSAJE1 = "SITIO DE ANONIMATO";
 			$MENSAJE2 = "El Sitio al que intenta acceder est&aacute; catalogado de propiciar navegaci&oacute;n de forma an&oacute;nima, este tipo de sitios no est&aacute; permitido ya que se asume que usted desea ocultar las p&aacute;ginas que visitar&iacute;a.";
-			$MENSAJE3 = "Si se comprueba que la catalogaci&oacute;n del sitio es correcta usted perder&aacute; la navegaci&oacute;n a trav&eacute;s de la Red SMC Camag&uuml;ey, esta decisi&oacute;n es INAPELABLE y est&aacute; en consonancia con la planilla que usted firmo y estuvo de acuerdo al solicitar este servicio.";
+			$MENSAJE3 = "Si se comprueba que la catalogaci&oacute;n del sitio es correcta usted perder&aacute; la navegaci&oacute;n a trav&eacute;s de de tu empresa, esta decisi&oacute;n es INAPELABLE y est&aacute; en consonancia con la planilla que usted firmo y estuvo de acuerdo al solicitar este servicio.";
 			$MENSAJE4 = "Ha sido enviada una alerta al Administrador de la Red con sus datos.";
 			break;
 		case "JUEGOS":
@@ -35,7 +35,7 @@ $RAZON = substr($URL_DIVIDIDA[4], 8);;
 			$COLOR_LETRA= "#000000";
 			$MENSAJE1 = "JUEGOS DESHABILITADOS";
 			$MENSAJE2 = "Ha intentado acceder a un sitio que est&aacute; catalogado como emisor de CONTENIDO DE ENTRETENIMIENTO, por razones l&oacute;gicas estos sitios se encuentran deshabilitados.";
-			$MENSAJE3 = "Si le parece que esta catalogaci&oacute;n es err&oacute;nea por favor dir&iacute;jase al Nodo SMC Camag&uuml;ey para revisarlo.";
+			$MENSAJE3 = "Si le parece que esta catalogaci&oacute;n es err&oacute;nea por favor dir&iacute;jase al Nodo de tu empresa para revisarlo.";
 			$MENSAJE4 = "";
 			break;
 		case "PORNOGRAFIA":
@@ -44,7 +44,7 @@ $RAZON = substr($URL_DIVIDIDA[4], 8);;
 			$COLOR_LETRA= "#FFFFFF";
 			$MENSAJE1 = "SITIO PORNOGRAFICO";
 			$MENSAJE2 = "Ha intentado acceder a un sitio que est&aacute; catalogado como emisor de CONTENIDO PARA ADULTOS, el sitio, su nombre de usuario, el equipo desde donde accede, la fecha y la hora han quedado registradas para su posterior an&aacute;lisis.";
-			$MENSAJE3 = "Si se comprueba que la catalogaci&oacute;n del sitio es correcta usted perder&aacute; la navegaci&oacute;n a trav&eacute;s de la Red SMC Camag&uuml;ey, esta decisi&oacute;n es INAPELABLE y est&aacute; en consonancia con la planilla que usted firmo y estuvo de acuerdo al solicitar este servicio.";
+			$MENSAJE3 = "Si se comprueba que la catalogaci&oacute;n del sitio es correcta usted perder&aacute; la navegaci&oacute;n a trav&eacute;s de la Red de tu empresa, esta decisi&oacute;n es INAPELABLE y est&aacute; en consonancia con la planilla que usted firmo y estuvo de acuerdo al solicitar este servicio.";
 			$MENSAJE4 = "Ha sido enviada una alerta al Administrador de la Red con sus datos.";
 			break;
 		case "PRENSA":
@@ -52,7 +52,7 @@ $RAZON = substr($URL_DIVIDIDA[4], 8);;
 			$COLOR_FONDO= "#0A2A29";
 			$COLOR_LETRA= "#FFFFFF";
 			$MENSAJE1 = "SITIO DE PRENSA CONTRARREVOLUCIONARIA";
-			$MENSAJE2 = "La configuraci&oacute;n actual impide que tenga acceso a p&aacute;ginas de contenido pol&iacute;tico en contra de nuestro proceso revolucionario. Si esto le parece incorrecto dir&iacute;jase al Nodo SMC Camag&uuml;ey.";
+			$MENSAJE2 = "La configuraci&oacute;n actual impide que tenga acceso a p&aacute;ginas de contenido pol&iacute;tico en contra de nuestro proceso revolucionario. Si esto le parece incorrecto dir&iacute;jase al Nodo de tu empresa.";
 			$MENSAJE3 = "Para acceder a este tipo sitios utilice cualquiera de las v&iacute;as que ofrece ETECSA y no lo haga desde una conexi&oacute;n que paga la revoluci&oacute;n cubana. <b><i>¡SEA COHERENTE!</b></i>";
 			$MENSAJE4 = "";
 			break;	
@@ -62,7 +62,7 @@ $RAZON = substr($URL_DIVIDIDA[4], 8);;
 			$COLOR_LETRA= "#000000";
 			$MENSAJE1 = "NAVEGACIÓN IP DESHABILITADA";
 			$MENSAJE2 = "Ha intentando navegar a trav&eacute;s de una direcci&oacute;n IP, este tipo de navegaci&oacute;n est&aacute; deshabilitada por cuestiones de seguridad, intente encontrar la direcci&oacute;n web original del sitio e int&eacute;ntelo por esa v&iacute;a.";
-			$MENSAJE3 = "Si esto le parece incorrecto dir&iacute;jase al Nodo SMC Camag&uuml;ey";
+			$MENSAJE3 = "Si esto le parece incorrecto dir&iacute;jase al Nodo de tu empresa";
 			$MENSAJE4 = "";
 			break;	
 		case "2IP":
@@ -163,8 +163,8 @@ $RAZON = substr($URL_DIVIDIDA[4], 8);;
 			</div> 
 			<!-- Inicio del Pie de Página -->
 			<div id="footer">
-				<div align="center"><a href="http://www.cmw.smcsalud.cu" target="_self" style="color:<?php echo $COLOR_LETRA; ?>; font-size:14px">Web SMC</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="text/rule.html" target="_blank" style="color:<?php echo $COLOR_LETRA; ?>; font-size:14px">Reglamento de  Red</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:<?php echo $COLOR_LETRA; ?>; font-size:14px"><a href="text/code.html" target="_blank" style="color:<?php echo $COLOR_LETRA; ?>; font-size:14px">C&oacute;digo de &Eacute;tica</a></br>
-				<div align="center" style="color:<?php echo $COLOR_LETRA; ?>; font-size:12px">Servicios M&eacute;dicos Cubanos, Sucursal Camag&uuml;ey</div>
+				<div align="center"><a href="http://www.tu.web.cu" target="_self" style="color:<?php echo $COLOR_LETRA; ?>; font-size:14px">Tu Web</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="text/rule.html" target="_blank" style="color:<?php echo $COLOR_LETRA; ?>; font-size:14px">Reglamento de  Red</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:<?php echo $COLOR_LETRA; ?>; font-size:14px"><a href="text/code.html" target="_blank" style="color:<?php echo $COLOR_LETRA; ?>; font-size:14px">C&oacute;digo de &Eacute;tica</a></br>
+				<div align="center" style="color:<?php echo $COLOR_LETRA; ?>; font-size:12px">Tu Empresa</div>
 			</div>
 			<!-- Fin del Pie de Página -->
 		</div> 
@@ -174,7 +174,6 @@ $RAZON = substr($URL_DIVIDIDA[4], 8);;
 <?php
 	/* DEFINIENDO DESDE QUE TIPO DE ALERTAS SE ENVIARA NOTIFICACION */
 	$Fecha_Ahora = date("d/m/Y h:i:s a",time());
-	$Localizacion = "SMC";
 	
 	if ($CATEGORIA == "ANONIMATO" or $CATEGORIA == "PORNOGRAFIA" or $CATEGORIA == "2IP" or $CATEGORIA == "PRENSA")
 	{
@@ -183,14 +182,14 @@ $RAZON = substr($URL_DIVIDIDA[4], 8);;
 		require_once "class/class.smtp.php";
 		require_once "class/class.phpmailer.php";
 		$mail = new PHPMailer();
-		$mail->From = "azufre.cmw@infomed.sld.cu";
-		$mail->FromName = "Root SMC";
+		$mail->From = "remitente@tu.correo.cu";
+		$mail->FromName = "Tu Nombre";
 		$mail->Subject = "ALERTA, Trafico prohibido detectado";
-		$mail->Host = "201.220.211.39";
+		$mail->Host = "ip.server.mail";
 		$mail->Port = 25;
 		$mail->SMTPAuth = false;
 		$mail->Mailer = "smtp";
-		$mail->AddAddress("azufre.cmw@infomed.sld.cu");
+		$mail->AddAddress("destinatario@correo.cu");
 		$mail->IsHTML(true);
 		$mail->AddEmbeddedImage("img/logo-mail.jpg", "logo"); 
 		$mail->AddEmbeddedImage("img/lin-up.jpg", "lin-up"); 
@@ -199,7 +198,6 @@ $RAZON = substr($URL_DIVIDIDA[4], 8);;
 		<div><img src='cid:lin-up' width='100%' height='2'/></div><br>
 		<div style=font-size:22px;color:#FF0000;>Se ha detectado trafico que coincide con la ACL: $CATEGORIA</div><br>
 		<div>Detalles del acceso:</div>
-	    <div>LOCALIZACION: SMC</div>
 	    <div>USUARIO: $USER</div>
         <div>IP: $IP</div>
 		<div>FECHA: $Fecha_Ahora</div>
@@ -209,10 +207,10 @@ $RAZON = substr($URL_DIVIDIDA[4], 8);;
 		$mail->Send();
 		
 		/* ENVIANDO ALERTAS POR TELEGRAM */
-		$token = "6257032372:AAEyuDuSnbJtRb5QDPDeKM721qgO4PROaRY";
-		$id = "1119828821";
+		$token = "tu_tuken_de_telegram";
+		$id = "tu_id_de_telegram";
 		$urlMsg = "https://api.telegram.org/bot{$token}/sendMessage";
-		$msg = "Se ha detectado trafico que coincide con la ACL: $CATEGORIA\nDetalles del acceso:\nLOCALIZACION: $Localizacion\nUSUARIO: $USER\nIP: $IP\nFECHA: $Fecha_Ahora\nURL: $URL";
+		$msg = "Se ha detectado trafico que coincide con la ACL: $CATEGORIA\nDetalles del acceso:\nUSUARIO: $USER\nIP: $IP\nFECHA: $Fecha_Ahora\nURL: $URL";
 		 
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, $urlMsg);
